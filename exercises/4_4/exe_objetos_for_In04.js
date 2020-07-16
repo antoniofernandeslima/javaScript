@@ -8,5 +8,5 @@ let info = {
   info.Recorrente = "sim";
 
 for (let chave in info){
-    console.log(chave,info[chave]);
+    console.log(info[chave]);
 }

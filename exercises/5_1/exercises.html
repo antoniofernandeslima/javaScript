@@ -67,13 +67,21 @@
           titulo.innerHTML = "Exercício 5.1 - JavaEscripit";
         }
         function trocaP(){
-          let maiusculo = document.getElementsByClassName('p').innerHTML;
-          maiusculo.toUpperCase();
+         // let maiusculo = document.getElementsByClassName('p').innerHTML;
+         // maiusculo.innerHTML.toUpperCase();
+        }
+        function exibeTudoP(){
+          let todoP = document.querySelectorAll('p');
+          for (let index = 0; index < todoP.length; index += 1) {
+            console.log(todoP[index].innerText);
+          }
         }
         mudaTudo();
         arrumaTexto();
         trocaP();
-
+        exibeTudoP();
+        
+      
 
     </script>
   </body>

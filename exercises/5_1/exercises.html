@@ -61,13 +61,18 @@
             classe.style.backgroundColor = 'rgb(76,164,109)';
             let classe2 = document.getElementsByClassName('center-content')[0];
             classe2.style.backgroundColor = 'white';
-            }
+        }
         function arrumaTexto(){
           let titulo = document.getElementsByTagName('h1')[0];
           titulo.innerHTML = "Exercício 5.1 - JavaEscripit";
         }
+        function trocaP(){
+          let maiusculo = document.getElementsByClassName('p').innerHTML;
+          maiusculo.toUpperCase();
+        }
         mudaTudo();
         arrumaTexto();
+        trocaP();
 
 
     </script>
